@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(239, 239, 239) ;
+}
+.b-header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__img{
+       object-fit: contain;
+    }
+
+    &__a{
+        text-decoration: none;
+        color: rgb(37, 36, 36);
+        padding-right: 15px;
+        border-right-style:solid;
+        border-right-width: 1px;
+    }
+
+    &__button{
+        border-style: none;
+        background-color:rgb(247, 247,247);
+        font-size: larger ;
+    }
+    &__menu{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: white;
+        border-top: 1px;
+        border-bottom: 1px;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: rgb(180, 177, 177);
+        text-align: center;
+    
+        &-a{
+            text-decoration: none;
+            color: rgb(37, 36, 36);
+            padding-right: 15px;
+            padding-left: 15px;
+           }
+        &-a:hover{
+            font-weight: bolder;
+            border-bottom-style: solid;
+            border-bottom-width:5px;
+            border-bottom-color:rgb(22, 155, 22) ;
+            padding-bottom: 17px;      
+        }
+
+        &-button{
+            border-style: none;
+            background-color:rgb(22, 155, 22);
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+.b-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__a{
+        text-decoration: none;
+        color:rgb(22, 155, 22);
+    }
+    &__button{
+        color:rgb(22, 155, 22);
+        border: 1px;
+        border-style:solid;
+        padding: 15px;
+        background-color: white;
+        font-weight:300;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: large;
+    }
+    &__gallery{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin-right: 0;
+        &__button{
+            text-decoration: none;
+            border-style: solid;
+            border-color:rgb(19, 54, 19) ;
+            border-width: 1px;
+            color: rgb(22, 155, 22);
+            padding: 10px 10px;
+            font-weight:bolder ;
+            position: absolute;
+            top: 85%;
+            right: 3%;
+
+        }
+    }
+    &__img{
+        margin-top: 5%;
+        background-color: white;
+        position: relative;
+        height: 450px;
+    }
+    &__img2{
+        width: 520px;
+
+
+    }
+    &__text{
+        background-color: white;
+        margin-top: 5%;
+        padding: 1% 2%;
+
+    }
+    &__lorem{
+        font-size: small;
+    }
+    &__search{
+        
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__flight{
+        background-image: url(vuelos.jpg);
+        width: 130px;
+        height: 100px;
+        border: 1px solid #e2e2e2;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    &__links{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        &__title{
+            position:absolute;
+            font-weight: bolder;
+            left: 1%;
+            top:0%;
+            color: white;
+            width:160px;
+            font-size: 20px
+        }
+        &__help{
+            position:absolute;
+            color: white;
+            top:50%;
+            left:1%;
+            font-size: medium;
+        }
+        &__descubre{
+        text-decoration: none;
+        position:absolute;
+        color: white;
+        top:70%;
+        left:1%;
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px 20px;
+        }
+    }
+}    
+.u-margin-left__inicio{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.u-margin-top{
+    margin-top: 20px;
+}
+fieldset{
+    border-style: none;
+    padding-left: 0%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.u-margin__p{
+    position: absolute;
+    left:3%;
+    bottom: 35%;
+}
+.u-precio{
+    color: rgb(22, 155, 22);
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.u-position__desde{
+    position: absolute;
+    bottom: 10%;
+    left:3%;
+}
+.h2{
+    position: absolute;
+    top: 190px;
+    left:2%;
+
+
+}
+p{
+    color:rgb(68, 68, 68)
+}
+.u-position__relative{
+    position:relative;
+}
